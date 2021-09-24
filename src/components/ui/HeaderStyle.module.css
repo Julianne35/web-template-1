@@ -42,7 +42,8 @@
 }
 
 .parallax-img {
-  border: 0.3rem #e4e4e48a solid;
+  /* border: 0.3rem #e4e4e48a solid; */
+  margin: 0 1rem;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
@@ -74,6 +75,10 @@
     font-size: .8rem;
     padding: .5rem;
   }
+
+  .parallaxHeight {
+    height: 110vh;
+  }
 }
 
 @media screen and (min-width: 280px) {
@@ -86,11 +91,25 @@
     font-size: 1rem;
     padding: 1.5rem;
   }
+
+  .parallaxHeight {
+    height: 80vh;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .parallaxHeight {
+    height: 100vh;
+  }
 }
 
 @media screen and (min-width: 360px) {
   .innerHtml {
     align-self: center;
+  }
+
+  .parallaxHeight {
+    height: 75vh;
   }
 }
 
@@ -98,11 +117,17 @@
   .innerHtml {
     font-size: 3rem;
   }
+  .parallaxHeight {
+    height: 65vh;
+  }
 }
 
 @media screen and (min-width: 480px) {
   .innerHtml {
     font-size: 3.5rem;
+  }
+  .parallaxHeight {
+    height: 55vh;
   }
 }
 
@@ -110,6 +135,15 @@
   .innerHtml {
     font-size: 4.5rem;
     padding: 1.5rem;
+  }
+  .parallaxHeight {
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .parallaxHeight {
+    height: 90vh;
   }
 }
 
@@ -129,7 +163,8 @@
 
 @media screen and (min-width: 1024px) {
   .innerHtml {
-    font-size: 8rem;
+    font-size: 7rem;
+    width: 70vw;
   }
   .parallax {
     height: 41vh;
@@ -138,5 +173,16 @@
   .header-aside-text {
     border-radius: .5rem;
     margin: 1rem 2rem 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .innerHtml {
+    font-size: 9rem;
+    width: 60vw;
+    padding: 4rem;
+  }
+  .header-aside-text {
+   margin: 0 15rem;
   }
 }
