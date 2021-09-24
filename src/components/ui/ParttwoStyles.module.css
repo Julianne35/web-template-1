@@ -1,0 +1,171 @@
+.parttwo-body {
+  background-color: #474747;
+  background: linear-gradient(
+147deg
+, #d3dbdf 0%, #bbb5afd6 125%);
+  padding: 0.3rem 1rem 1rem 0;
+}
+
+.content-container {
+  padding: 0.3rem 0 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parttwo-section h1 {
+  color: white;
+}
+
+.parttwo-section,
+.parttwo-section-two {
+  padding: 0 1rem;
+}
+
+.parttwo-section-two {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: -1.2rem 1rem;
+  padding: 0 1rem;
+  height: 20vh;
+  background: url("../../images/wood-72res-grad.jpg") no-repeat;
+  background-size: contain;
+}
+
+.parttwo-section-two p {
+  text-align: center;
+  color: wheat;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  margin: 0 0 1rem 0;
+  background: linear-gradient(1deg, #d3dbdf00 0%, #544334 125%);
+}
+
+.aside-sect-one,
+.aside-sect-two {
+  height: 15vh;
+  margin-top: 0.5rem;
+  background: linear-gradient(
+    159deg,
+    #f7f7f7 0%,
+    #ffffff2b 88%,
+    #ffffff2b 100%
+  ); 
+  padding: 0.3rem;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.aside-sect-two {
+  background: linear-gradient(
+    314deg,
+    #f7f7f7 0%,
+    #ffffff2b 88%,
+    #ffffff2b 100%
+  ); 
+}
+
+@media screen and (min-width: 240px) {
+  .parttwo-section-two {
+    background-size: cover;
+    height: 14rem;
+  }
+  .parttwo-section-two p {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 280px) {
+  .parttwo-section-two {
+    height: 11.5rem;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .parttwo-section-two {
+    height: 10.5rem;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .parttwo-section-two p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .parttwo-section-two {
+    height: 11.5rem;
+  }
+}
+
+@media screen and (min-width: 411px) {
+  .parttwo-section-two {
+    height: 10.5rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .parttwo-section-two {
+    height: 9.5rem;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .parttwo-section-two p {
+    background: linear-gradient(1deg, #d3dbdf00 0%, #191410 125%);
+  }
+  .parttwo-section-two {
+    height: 9rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .parttwo-section-two {
+    height: 8rem;
+  }
+  .parttwo-section-two p {
+    background: linear-gradient(360deg, #d3dbdf00 0%, #000000b0 92%);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .parttwo-section-two {
+    height: 9.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .parttwo-section-two {
+    height: 8rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .parttwo-section-two {
+    height: 7rem;
+  }
+  .parttwo-section-two p {
+    background: linear-gradient(360deg, #d3dbdf00 0%, #000000ad 52%);
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .parttwo-section-two p {
+    height: 8rem;
+  }
+  .parttwo-section-two {
+    height: 12rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .parttwo-section-two p {
+    width: 100%;
+    height: 15rem;
+  }
+  .parttwo-section-two {
+    height: 20rem;
+  }
+  .gradient {
+    margin-top: 3rem;
+  }
+}
