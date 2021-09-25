@@ -1,3 +1,4 @@
+import SwiperMode from "./ui/SwiperMode";
 import style from "./PartThreeStyles.module.css";
 
 const PartThree = () => {
@@ -13,6 +14,7 @@ const PartThree = () => {
           nunc.
         </p>
       </section>
+      <div className={style.container}><SwiperMode /></div>
       <section className={style["section-three-b"]}>
           <h1>Lorem ipsum </h1>
         <p>
