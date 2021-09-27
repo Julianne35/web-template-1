@@ -1,4 +1,3 @@
-// core version + navigation, pagination modules:
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./style.css";
 
@@ -32,7 +31,7 @@ const SwiperMode = () => {
               Dolor sit amet, consectetur 
               adipiscing elit, sed do eiusmod tempor
               incididunt ut labore
-            <div class="circleBase circle"></div>
+            <div className="circleBase circle"></div>
           </aside>
         </SwiperSlide>
         <SwiperSlide>
@@ -41,7 +40,7 @@ const SwiperMode = () => {
             Dolor sit amet, consectetur 
             adipiscing elit, sed do eiusmod tempor
             incididunt ut labore
-            <div class="circleBase circle"></div>
+            <div className="circleBase circle"></div>
           </aside>
         </SwiperSlide>
         <SwiperSlide>
@@ -50,7 +49,7 @@ const SwiperMode = () => {
             Dolor sit amet, consectetur 
             adipiscing elit, sed do eiusmod tempor
             incididunt ut labore
-            <div class="circleBase circle"></div>
+            <div className="circleBase circle"></div>
           </aside>
         </SwiperSlide>
         <SwiperSlide>
@@ -59,7 +58,7 @@ const SwiperMode = () => {
             Dolor sit amet, consectetur 
             adipiscing elit, sed do eiusmod tempor
             incididunt ut labore
-            <div class="circleBase circle"></div>
+            <div className="circleBase circle"></div>
           </aside>
         </SwiperSlide>
       </Swiper>

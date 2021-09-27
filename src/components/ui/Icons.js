@@ -2,7 +2,7 @@ import ImageOne from "../../images/beach1.jpg";
 import ImageTwo from "../../images/beach2.jpg";
 import ImageThree from "../../images/beach3.jpg";
 import { Parallax } from "react-parallax";
-import styles from "./ParttwoStyles.module.css";
+import styles from "./IconsStyles.module.css";
 
 const Icons = () => {
   const imgOne = ImageOne;
