@@ -65,17 +65,25 @@
   border: 1px solid #000;
 }
 
- @media screen and (min-width: 320px) {
+/* remove outline from output */
+.form-control:focus,
+.form-select:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 320px) {
   .aside-icon {
     max-width: 13rem;
   }
 }
 
 @media screen and (min-width: 360px) {
-   .aside-icon {
-     max-width: 15rem;
-   }
- }
+  .aside-icon {
+    max-width: 15rem;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .aside-icon {
@@ -84,9 +92,8 @@
 }
 
 @media screen and (min-width: 800px) {
-   .aside-icon {
-     font-size: 14px;
-     max-width: 19rem;
- }
+  .aside-icon {
+    font-size: 14px;
+    max-width: 19rem;
+  }
 }
-

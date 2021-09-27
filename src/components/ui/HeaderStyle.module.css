@@ -189,6 +189,13 @@
     padding: 4rem;
   }
   .header-aside-text {
-   margin: 0 15rem;
+   margin: 0 24rem;
+  }
+}
+
+@media screen and (min-width: 2360px) {
+  .parallaxHeight {
+    width: 143rem;
+    margin: 0 auto;
   }
 }
